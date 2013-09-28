@@ -1,11 +1,11 @@
 # Dropplets template variables and fuctions
 - Adonis K.
 - varemenos
-- 2013/09/28
+- 2013/09/27
 - Dropplets
 - published
 
-It seems like Dropplets doesn't have the template documentation prepared for the developers, so I did some digging to find out about the variables and functions we template developers can use.
+It seems like there is no documentation for Dropplets' templates, so I did some digging and found the variables and functions that can be used for template development.
 
 __variables__:
 
