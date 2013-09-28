@@ -42,8 +42,7 @@ For CSS we need to use the triangle CSS trick that became viral a couple of year
 	100% {
 		transform: rotate(360deg);
 	}
-}
-</code></pre>
+}</code></pre>
 
 ### Alternative Style
 
@@ -55,18 +54,7 @@ For CSS we need to use the triangle CSS trick that became viral a couple of year
 	border-radius: 5em;
 	border-color: transparent transparent #0099ff transparent;
 	animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-	0% {
-		transform: rotate(0deg);
-	}
-
-	100% {
-		transform: rotate(360deg);
-	}
-}
-</code></pre>
+}</code></pre>
 
 ### Demo
 
