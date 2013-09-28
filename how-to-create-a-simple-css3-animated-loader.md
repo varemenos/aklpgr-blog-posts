@@ -7,7 +7,7 @@
 
 ### Preface
 
-In this tutorial I will show you how to create a simple CSS3 animated loader by only using 1 HTML element. A couple of months ago a lets-create-css3-loaders trend was initiated in codepen with a lot of people trying to create impressive and functional CSS3 Loaders and as a CSS3 enthusiast I accepted the challenge and created a couple of them ([#1](http://codepen.io/varemenos/pen/EeulL), [#2](http://codepen.io/varemenos/pen/oJLge)). So in this blog post I will show you how to create the 1st one which requires just 1 element.
+In this blog-post/tutorial I will show you how to create a simple CSS3 animated loader by only using 1 HTML element. A couple of months ago a lets-create-css3-loaders trend was initiated in codepen with a lot of people trying to create impressive and functional CSS3 Loaders. So as a CSS3 enthusiast I accepted the challenge and created a couple of them ([#1](http://codepen.io/varemenos/pen/EeulL), [#2](http://codepen.io/varemenos/pen/oJLge)). Using one of these 2 creations I will be showing you how to create the 1st one which requires just 1 element.
 
 ### Why use only 1 element?
 
