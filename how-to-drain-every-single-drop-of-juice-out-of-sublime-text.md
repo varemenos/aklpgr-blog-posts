@@ -11,6 +11,8 @@ Countless frontend developer use Sublime Text and I'm no exception. This piece o
 
 Anyway, in this blog post I will share some of the packages and settings I'm using daily and since they make my day so much easier (This post will focus on Sublime Text 3 since I've switched to it about a month ago).
 
+---
+
 ## Package Control
 
 Before we dig deep into the package world of Sublime Text, let me first quote a description of what Package Control is.
@@ -27,6 +29,8 @@ There are different instructions depending on the version of Sublime Text you ar
 ### How to install a Package via Package Control
 
 To install a package via Package Control you first have to display the Package Control palette which you can do by either using the shortcut `Ctrl` + `Shift` + `P` or by using the menu and going to `Preferences` -> `Package Control`. You will now be presented with the Package Control palette which offers you some options, one of them is `Package Control: Install Package`. Once you select it, the palette will display a list of available packages you can choose to install. Once you choose a package for installation, a message will appear in the status bar indicating the installation process, at the end of which you might need to restart Sublime Text so that the package can be initiated.
+
+---
 
 ## Packages
 
@@ -191,3 +195,7 @@ A ton of awesome color schemes
 ### More
 
 For more you can check [package control's website](https://sublime.wbond.net/). It contains a list of popular, trending and new packages, it also gives you the ability to search by label or by text input.
+
+## Settings
+
+I won't go much for Settings right now (since I'm kinda off schedule) so for now you can check the settings I'm using by visiting [this link](https://github.com/varemenos/veSettingsST3)
