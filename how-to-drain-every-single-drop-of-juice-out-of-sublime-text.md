@@ -4,9 +4,6 @@
 - 2013/09/30
 - General
 - published
-
----
-
 ## Table of Content
 
 * [Prologue](#Prologue)
@@ -51,6 +48,8 @@
 		* [SyncedSideBar](#SyncedSideBar)
 	* [More](#More)
 * [Settings](#Settings)
+
+---
 
 ## <a name="#Prologue"></a>Prologue
 
