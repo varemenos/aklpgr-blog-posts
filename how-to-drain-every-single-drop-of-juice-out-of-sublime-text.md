@@ -43,6 +43,9 @@ Most of Sublime Text's functionality comes from the Packages you decide to insta
 * Sublime Text UI enhancers
 * more
 
+__note #1__: To install these all you have to do is type the name you in the title of the package you like in the `Package Control: Install Package` feature.
+__note #2__: All of these packages are supported by Sublime Text 3, and most should be supported by Sublime Text 2 as well.
+
 ### Must have packages
 
 #### BracketHighlighter
