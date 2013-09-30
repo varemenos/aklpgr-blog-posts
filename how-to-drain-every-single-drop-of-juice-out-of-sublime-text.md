@@ -26,7 +26,7 @@
 		* [ApacheConf.tmLanguage](#ApacheConf)
 		* [Git Config](#Git-Config)
 		* [INI](#INI)
-		* [JavaScriptNext - ES6 Syntax](#JavaScriptNext-ES6-Syntax)
+		* [JavaScriptNext - ES6 Syntax](#JavascriptNext-ES6-Syntax)
 	* [Themes and Schemes](#Themes-and-Schemes)
 		* [Theme - Soda](#Theme-Soda)
 		* [Tomorrow Color Schemes](#Tomorrow-Color-Schemes)
@@ -103,7 +103,7 @@ It's a bracket and tag highlighter for Sublime Text
 
 Enhancements to Sublime Text sidebar. Files and folders.
 
-#### <a name="Package-Synching"></a>Package Syncing
+#### <a name="Package-Syncing"></a>Package Syncing
 
 Keep your different Sublime Test installations synchronized across different machines. The package is using a different attempt rather than just build a link. It is basically syncing your user folder and you can define which files you would like to include in the sync. On the other hand you can also exclude files from the sync for example for platform depending settings or packages.
 
