@@ -196,6 +196,8 @@ A ton of awesome color schemes
 
 For more you can check [package control's website](https://sublime.wbond.net/). It contains a list of popular, trending and new packages, it also gives you the ability to search by label or by text input.
 
+---
+
 ## Settings
 
 I won't go much for Settings right now (since I'm kinda off schedule) so for now you can check the settings I'm using by visiting [this link](https://github.com/varemenos/veSettingsST3)
