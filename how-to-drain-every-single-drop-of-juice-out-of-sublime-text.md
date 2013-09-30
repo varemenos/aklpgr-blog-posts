@@ -2,7 +2,7 @@
 - Adonis K.
 - varemenos
 - 2013/09/30
-- CSS
+- general
 - published
 
 ## Prologue
