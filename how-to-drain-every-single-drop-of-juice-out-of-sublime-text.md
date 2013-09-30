@@ -190,8 +190,6 @@ A ton of awesome color schemes
 
 > Sublime Text plugin to sync project sidebar (folder view) with currently active file.
 
-####
-
 ### More
 
 For more you can check [package control's website](https://sublime.wbond.net/). It contains a list of popular, trending and new packages, it also gives you the ability to search by label or by text input.
