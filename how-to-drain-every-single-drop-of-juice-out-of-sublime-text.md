@@ -34,7 +34,7 @@ To install a package via Package Control you first have to display the Package C
 
 ## Packages
 
-Most of the functionality of Sublime Text comes from the Packages you decide to install. What I mean by functionality? Thats:
+Most of Sublime Text's functionality comes from the Packages you decide to install. What I mean by functionality? Thats:
 
 * build systems
 * system highlighting
