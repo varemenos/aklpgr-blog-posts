@@ -245,7 +245,7 @@ For more you can check [package control's website](https://sublime.wbond.net/). 
 
 ### <a name="How-Settings-Work"></a>How Settings Work
 
-You need to know how settings work in Sublime Text before I continue explaning what they do. If open the preferences menu you will notice these options:
+You need to know how settings work in Sublime Text before we continue. If you open the preferences menu you will notice these options:
 
 * Settings - Default
 * Settings - User
