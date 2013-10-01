@@ -262,7 +262,7 @@ Be careful with Settings - Default, never modify it! All the changes you make in
 
 By default this file is empty, and it's purpose is to override options from the Settings - Default file. So when you want to override an option you add it in here.
 
-#### <a name="Syntax Specific-User"></a>Syntax Specific - User
+#### <a name="Syntax-Specific-User"></a>Syntax Specific - User
 
 These options are specific to the syntax of the current document. For example, if your currently open document has a syntax highlighting of Markdown then the by opening Syntax Specific - User from the menu will open the file that's specific to Markdown (`Markdown.sublime-settings`). It works similar to Settings - User but the options you override will be specific to Markdown files.
 
