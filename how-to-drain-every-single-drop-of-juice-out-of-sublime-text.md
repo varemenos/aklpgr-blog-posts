@@ -52,7 +52,7 @@
 	* [How Settings Work](#How-Settings-Work)
 	* [Settings - Default](#Settings-Default)
 	* [Settings - User](#Settings-User)
-	* [Syntax Specific - User](#Syntax Specific-User)
+	* [Syntax Specific - User](#Syntax-Specific-User)
 	* [Distraction Free - User](#Distraction-Free-User)
 	* [Settings - Options](#Settings-Options)
 	* [My Settings](#My-Settings)
