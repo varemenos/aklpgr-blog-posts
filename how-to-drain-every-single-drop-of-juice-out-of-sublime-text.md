@@ -373,4 +373,5 @@ You can check the settings I'm currently using by visiting [this link](https://g
 ## <a name="Documentation"></a>Documentation
 
 [Documentation for Sublime Text 2](http://www.sublimetext.com/docs/2/)
+
 [Documentation for Sublime Text 3](http://www.sublimetext.com/docs/3/)
