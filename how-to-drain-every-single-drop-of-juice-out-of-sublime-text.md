@@ -49,6 +49,14 @@
 		* [SyncedSideBar](#SyncedSideBar)
 	* [More](#More)
 * [Settings](#Settings)
+	* [How-Settings-Work](How Settings Work)
+	* [Settings-Default](Settings - Default)
+	* [Settings-User](Settings - User)
+	* [Syntax Specific-User](Syntax Specific - User)
+	* [Distraction-Free-User](Distraction Free - User)
+	* [Settings-options](Settings - Options)
+	* [My-Settings](My Settings)
+* [Documentation](Documentation)
 
 ---
 
@@ -235,4 +243,134 @@ For more you can check [package control's website](https://sublime.wbond.net/). 
 
 ## <a name="Settings"></a>Settings
 
-I won't write much for Settings right now (since I'm kinda off schedule) so for now you can check the settings I'm using by visiting [this link](https://github.com/varemenos/veSettingsST3).
+### <a name="How-Settings-Work"></a>How Settings Work
+
+You need to know how settings work in Sublime Text before I continue explaning what they do. If open the preferences menu you will notice these options:
+
+* Settings - Default
+* Settings - User
+* Settings - More
+	* Syntax Specific - User
+	* Distraction Free - User
+
+#### <a name="Settings-Default"></a>Settings - Default
+
+Settings - Default contains all the default options that Sublime Text has and is a good reference for what options are available and it also includes some inline documentation for each option.
+Be careful with Settings - Default, never modify it! All the changes you make in Settings - Default will be most possibly lost after the next update. And that's why Settings - User exists.
+
+#### <a name="Settings-User"></a>Settings - User
+
+By default this file is empty, and it's purpose is to override options from the Settings - Default file. So when you want to override an option you add it in here.
+
+#### <a name="Syntax Specific-User"></a>Syntax Specific - User
+
+These options are specific to the syntax of the current document. For example, if your currently open document has a syntax highlighting of Markdown then the by opening Syntax Specific - User from the menu will open the file that's specific to Markdown (`Markdown.sublime-settings`). It works similar to Settings - User but the options you override will be specific to Markdown files.
+
+#### <a name="Distraction-Free-User"></a>Distraction Free - User
+
+These options are specific to the Distraction Free mode which can be toggled via the `F11` shortcut. Just like Syntax Specific, the options you override in this file will only work when you are in Distraction Free mode.
+
+### <a name="Settings-options"></a>Settings - Options
+
+Here are the available options (as of 1st of October 2013)
+
+* `color_scheme`
+* `font_face`
+* `font_size`
+* `font_options`
+* `word_separators`
+* `line_numbers`
+* `gutter`
+* `margin`
+* `fold_buttons`
+* `fade_fold_buttons`
+* `rulers`
+* `spell_check`
+* `tab_size`
+* `translate_tabs_to_spaces`
+* `use_tab_stops`
+* `detect_indentation`
+* `auto_indent`
+* `smart_indent`
+* `indent_to_bracket`
+* `trim_automatic_white_space`
+* `word_wrap`
+* `wrap_width`
+* `indent_subsequent_lines`
+* `draw_centered`
+* `auto_match_enabled`
+* `dictionary`
+* `draw_minimap_border`
+* `always_show_minimap_viewport`
+* `highlight_line`
+* `caret_style`
+* `match_brackets`
+* `match_brackets_content`
+* `match_brackets_square`
+* `match_brackets_braces`
+* `match_brackets_angle`
+* `match_tags`
+* `match_selection`
+* `line_padding_top`
+* `line_padding_bottom`
+* `scroll_past_end`
+* `move_to_limit_on_up_down`
+* `draw_white_space`
+* `draw_indent_guides`
+* `indent_guide_options`
+* `trim_trailing_white_space_on_save`
+* `ensure_newline_at_eof_on_save`
+* `save_on_focus_lost`
+* `atomic_save`
+* `fallback_encoding`
+* `default_encoding`
+* `enable_hexadecimal_encoding`
+* `default_line_ending`
+* `tab_completion`
+* `auto_complete`
+* `auto_complete_size_limit`
+* `auto_complete_delay`
+* `auto_complete_selector`
+* `auto_complete_triggers`
+* `auto_complete_commit_on_tab`
+* `auto_complete_with_fields`
+* `auto_close_tags`
+* `shift_tab_unindent`
+* `copy_with_empty_selection`
+* `find_selected_text`
+* `auto_find_in_selection`
+* `drag_text`
+* `theme`
+* `scroll_speed`
+* `tree_animation_enabled`
+* `animation_enabled`
+* `highlight_modified_tabs`
+* `show_tab_close_buttons`
+* `bold_folder_labels`
+* `use_simple_full_screen`
+* `gpu_window_buffer`
+* `overlay_scroll_bars`
+* `hot_exit`
+* `remember_open_files`
+* `always_prompt_for_file_reload`
+* `open_files_in_new_window`
+* `create_window_at_startup`
+* `close_windows_when_empty`
+* `show_full_path`
+* `show_panel_on_build`
+* `preview_on_click`
+* `folder_exclude_patterns`
+* `file_exclude_patterns`
+* `binary_file_patterns`
+* `index_files`
+* `enable_telemetry`
+* `ignored_packages`
+
+### <a name="My-Settings"></a>My Settings
+
+You can check the settings I'm currently using by visiting [this link](https://github.com/varemenos/veSettingsST3).
+
+## <a name="Documentation"></a>Documentation
+
+[Documentation for Sublime Text 2](http://www.sublimetext.com/docs/2/)
+[Documentation for Sublime Text 3](http://www.sublimetext.com/docs/3/)
