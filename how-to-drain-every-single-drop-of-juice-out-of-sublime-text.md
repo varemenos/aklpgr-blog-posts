@@ -370,6 +370,8 @@ Here are the available options (as of 1st of October 2013)
 
 You can check the settings I'm currently using by visiting [this link](https://github.com/varemenos/veSettingsST3).
 
+---
+
 ## <a name="Documentation"></a>Documentation
 
 [Documentation for Sublime Text 2](http://www.sublimetext.com/docs/2/)
