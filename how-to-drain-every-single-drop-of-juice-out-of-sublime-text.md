@@ -270,7 +270,7 @@ These options are specific to the syntax of the current document. For example, i
 
 These options are specific to the Distraction Free mode which can be toggled via the `F11` shortcut. Just like Syntax Specific, the options you override in this file will only work when you are in Distraction Free mode.
 
-### <a name="Settings-options"></a>Settings - Options
+### <a name="Settings-Options"></a>Settings - Options
 
 Here are the available options (as of 1st of October 2013)
 
