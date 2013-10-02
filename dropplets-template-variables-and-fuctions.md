@@ -90,3 +90,39 @@ __functions__:
 * smarty\_modifier\_markdown
 
 > Those are the vars and functions returned via `get_defined_vars()` and `get_defined_functions()`
+
+__edit:__
+
+After a bit more digging into the dropplets' file system I've found some globals that are assigned by using `define()`, here they are:
+
+Note that after I posted this list, I've found more variables (more like global aliases of the ones posted above).
+
+Here they are:
+
+* BLOG_EMAIL
+* BLOG_TWITTER
+* BLOG_URL
+* BLOG_TITLE
+* META_DESCRIPTION
+* INTRO_TITLE
+* INTRO_TEXT
+* HEADER_INJECT
+* FOOTER_INJECT
+* ACTIVE_TEMPLATE
+* PAGINATION\_ON_OFF
+* POSTS\_PER_PAGE
+* INFINITE_SCROLL
+* POSTS_DIR
+* CACHE_DIR
+* FILE_EXT
+* LOGIN_ERROR
+* IS_HOME
+* RSS1
+* RSS2
+* ATOM
+* MARKDOWN_VERSION
+* MARKDOWN\_EMPTY\_ELEMENT_SUFFIX
+* MARKDOWN\_TAB_WIDTH
+* MARKDOWN\_WP_POSTS
+* MARKDOWN\_WP_COMMENTS
+* MARKDOWN\_PARSER_CLASS
