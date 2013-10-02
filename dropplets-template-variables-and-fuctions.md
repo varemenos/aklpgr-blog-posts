@@ -95,10 +95,6 @@ __edit:__
 
 After a bit more digging into the dropplets' file system I've found some globals that are assigned by using `define()`, here they are:
 
-Note that after I posted this list, I've found more variables (more like global aliases of the ones posted above).
-
-Here they are:
-
 * BLOG_EMAIL
 * BLOG_TWITTER
 * BLOG_URL
