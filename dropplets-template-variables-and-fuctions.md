@@ -89,11 +89,7 @@ __functions__:
 * markdown
 * smarty\_modifier\_markdown
 
-> Those are the vars and functions returned via `get_defined_vars()` and `get_defined_functions()`
-
-__edit:__
-
-After a bit more digging into the dropplets' file system I've found some globals that are assigned by using `define()`, here they are:
+__globals__:
 
 * BLOG_EMAIL
 * BLOG_TWITTER
@@ -122,3 +118,5 @@ After a bit more digging into the dropplets' file system I've found some globals
 * MARKDOWN\_WP_POSTS
 * MARKDOWN\_WP_COMMENTS
 * MARKDOWN\_PARSER_CLASS
+
+> Those are the vars and functions returned via `get_defined_vars()` and `get_defined_functions()`. After a bit more digging into the dropplets' file system I've found some globals that are assigned by using `define()`
