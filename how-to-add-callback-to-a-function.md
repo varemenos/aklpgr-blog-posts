@@ -8,7 +8,7 @@
 We all know and love JQuery's callback and since I love it so much I wanted to replicate when I started recreating [codemagic](https://github.com/varemenos/codemagic). It seems like it's rather easy to do, all you have to do is add another parameter named `callback` (you can name it whatever you want, I just prefer it this way) and after checking wether the parameter is a function, execute it before the end of the container function.
 Here is an example:
 
-<pre class="line-numbers"><code class="language-js">// create a function that can take 2 parameters,
+<pre class="line-numbers"><code class="language-javascript">// create a function that can take 2 parameters,
 // a target variable
 // and an optional callback function
 increase = function (target, callback) {
