@@ -1,7 +1,7 @@
 # How to add callback to a function
 - Adonis K.
 - varemenos
-- 2013/09/27
+- 2013/10/30
 - javascript
 - published
 
