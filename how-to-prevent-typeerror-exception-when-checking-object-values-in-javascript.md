@@ -28,7 +28,7 @@ if(person.name && person.name.first === "John"){
 This way you won't get any errors or broken code in production. There is another way to fix  this by using a `try catch` block as following:
 
 <pre class="line-numbers">
-	<code class="language-javascript">var person = {};
+<code class="language-javascript">var person = {};
 try {
 	if(person.name.first === "John"){
 		console.log(person.name.first);
