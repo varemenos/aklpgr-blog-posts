@@ -7,11 +7,11 @@
 
 ## Table of Content
 
-* [Prologue](#Prologue)
-* [Package Control](#Package-Control)
+1. [Prologue](#Prologue)
+2. [Package Control](#Package-Control)
 	* [Installation](#Installation)
 	* [How to install a Package via Package Control](#How-to-install-a-Package-via-Package-Control)
-* [Packages](#Packages)
+3. [Packages](#Packages)
 	* [Must have packages](#Must-have-packages)
 		* [BracketHighlighter](#BracketHighlighter)
 		* [SideBarEnhancements](#SideBarEnhancements)
@@ -48,7 +48,7 @@
 		* [sublimelint](#sublimelint)
 		* [SyncedSideBar](#SyncedSideBar)
 	* [More](#More)
-* [Settings](#Settings)
+4. [Settings](#Settings)
 	* [How Settings Work](#How-Settings-Work)
 	* [Settings - Default](#Settings-Default)
 	* [Settings - User](#Settings-User)
@@ -56,19 +56,18 @@
 	* [Distraction Free - User](#Distraction-Free-User)
 	* [Settings - Options](#Settings-Options)
 	* [My Settings](#My-Settings)
-* [Documentation](#Documentation)
+5. [Documentation](#Documentation)
 
 ---
 
-## <a name="Prologue"></a>Prologue
+## <a name="Prologue"></a>1) Prologue
 
 Countless frontend developer use Sublime Text and I'm no exception. This piece of software is so awesome, functional and customizable that forces you to love it.
-
 Anyway, in this blog post I will share some of the packages and settings I'm using daily and since they make my day so much easier (This post will focus on Sublime Text 3 since I've switched to it about a month ago).
 
 ---
 
-## <a name="Package-Control"></a>Package Control
+## <a name="Package-Control"></a>2) Package Control
 
 Before we dig deep into the package world of Sublime Text, let me first quote a description of what Package Control is.
 
@@ -87,7 +86,7 @@ To install a package via Package Control you first have to display the Package C
 
 ---
 
-## <a name="Packages"></a>Packages
+## <a name="Packages"></a>3) Packages
 
 Most of Sublime Text's functionality comes from the Packages you decide to install. What I mean by functionality? Thats:
 
@@ -113,7 +112,7 @@ Enhancements to Sublime Text sidebar. Files and folders.
 
 #### <a name="Package-Syncing"></a>Package Syncing
 
-Keep your different Sublime Test installations synchronized across different machines. The package is using a different attempt rather than just build a link. It is basically syncing your user folder and you can define which files you would like to include in the sync. On the other hand you can also exclude files from the sync for example for platform depending settings or packages.
+Keep your Sublime Test installation synchronized across different machines. It syncs your user folder and you can define which files you would like to include in the sync. You can also exclude files from the sync for example platform-depending settings or packages.
 
 #### <a name="HTML5"></a>HTML5
 
@@ -121,7 +120,8 @@ HTML5 bundle for Sublime Text forked by Textmate's HTML5 bundle
 
 #### <a name="Emmet"></a>Emmet
 
- the essential toolkit for web-developers. Emmet takes the snippets idea to a whole new level: you can type CSS-like expressions that can be dynamically parsed, and produce output depending on what you type in the abbreviation. Emmet is developed and optimized for web-developers whose workflow depends on HTML/XML and CSS, but can be used with programming languages too.
+the essential toolkit for web-developers.
+Emmet takes the snippets idea to a whole new level: you can type CSS-like expressions that can be dynamically parsed, and produce output depending on what you type in the abbreviation. Emmet is developed and optimized for web-developers whose workflow depends on HTML/XML and CSS, but can be used with programming languages too.
 
 #### <a name="Emmet-CSS-Snippets"></a>Emmet CSS Snippets
 
@@ -162,7 +162,6 @@ Better JavaScript language definition for SublimeText. This builds on the langua
 #### <a name="Theme-Soda"></a>Theme - Soda
 
 This is by far the most used theme of Sublime Text
-
 Dark and light custom UI themes for Sublime Text 2 and Sublime Text 3.
 
 #### <a name="Tomorrow-Color-Schemes"></a>Tomorrow Color Schemes
@@ -176,7 +175,6 @@ I use this quite a lot when writing blog posts in markdown. This you can't find 
 #### <a name="Dayle-Rees-Color-Schemes"></a>Dayle Rees Color Schemes
 
 A ton of awesome color schemes
-
 Sublime Text 2 Themes (textmate) created by Dayle Rees.
 
 #### <a name="QuickThemes"></a>QuickThemes
@@ -241,7 +239,7 @@ For more you can check [package control's website](https://sublime.wbond.net/). 
 
 ---
 
-## <a name="Settings"></a>Settings
+## <a name="Settings"></a>4) Settings
 
 ### <a name="How-Settings-Work"></a>How Settings Work
 
@@ -366,7 +364,7 @@ Here are the available options (as of 1st of October 2013)
 * `enable_telemetry`
 * `ignored_packages`
 
-### <a name="My-Settings"></a>My Settings
+### <a name="My-Settings"></a>5) My Settings
 
 You can check the settings I'm currently using by visiting [this link](https://github.com/varemenos/veSettingsST3).
 
