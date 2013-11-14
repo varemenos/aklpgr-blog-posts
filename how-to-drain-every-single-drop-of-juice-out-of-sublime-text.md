@@ -60,14 +60,14 @@
 
 ---
 
-## <a name="Prologue"></a>1) Prologue
+## <a name="Prologue"></a>1. Prologue
 
 Countless frontend developer use Sublime Text and I'm no exception. This piece of software is so awesome, functional and customizable that forces you to love it.
 Anyway, in this blog post I will share some of the packages and settings I'm using daily and since they make my day so much easier (This post will focus on Sublime Text 3 since I've switched to it about a month ago).
 
 ---
 
-## <a name="Package-Control"></a>2) Package Control
+## <a name="Package-Control"></a>2. Package Control
 
 Before we dig deep into the package world of Sublime Text, let me first quote a description of what Package Control is.
 
@@ -86,7 +86,7 @@ To install a package via Package Control you first have to display the Package C
 
 ---
 
-## <a name="Packages"></a>3) Packages
+## <a name="Packages"></a>3. Packages
 
 Most of Sublime Text's functionality comes from the Packages you decide to install. What I mean by functionality? Thats:
 
@@ -239,7 +239,7 @@ For more you can check [package control's website](https://sublime.wbond.net/). 
 
 ---
 
-## <a name="Settings"></a>4) Settings
+## <a name="Settings"></a>4. Settings
 
 ### <a name="How-Settings-Work"></a>How Settings Work
 
@@ -364,7 +364,7 @@ Here are the available options (as of 1st of October 2013)
 * `enable_telemetry`
 * `ignored_packages`
 
-### <a name="My-Settings"></a>5) My Settings
+### <a name="My-Settings"></a>5. My Settings
 
 You can check the settings I'm currently using by visiting [this link](https://github.com/varemenos/veSettingsST3).
 
