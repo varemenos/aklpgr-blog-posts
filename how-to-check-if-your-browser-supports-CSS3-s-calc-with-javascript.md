@@ -5,29 +5,28 @@
 - JavaScript
 - published
 
-Recently I had to use CSS3's calc() value for a website I had to design and it seemed ridiculous to include a whole library (modernizr) for just 1 css property value. So I decided to write a small script to detect if calc was supported by the browsers or not (and it seems like it's rather similar to Modernizr's way of detecting it).
+Recently I had to use CSS3's calc() value for a website I was designing and it seemed ridiculous to include a whole library (Modernizr) for just 1 CSS property's value. So I decided to write a small script to detect if calc was supported by the browsers or not (and it seems like it's rather similar to Modernizr's way of detecting it).
 So, here is the script:
 
-<pre class="line-numbers"><code class="language-javascript">var myapp = myapp || {};
-
+<pre class="line-numbers"><code class="language-javascript">
 // returns true if your browser supports calc()
-myapp.checkCalc = function (prefix = '') {
+checkCalc = function (prefix = '') {
 	var el = document.createElement('div');
 	el.style.cssText = prefix + 'width: calc(1px);';
 	return !!el.style.length;
 };
 
 // returns true if your browser supports any version of calc(), prefixed or not
-myapp.checkAllCalc = function (prefix = '') {
-	return myapp.checkCalc('-webkit-') || myapp.checkCalc('-moz-') || myapp.checkCalc();
+checkAllCalc = function (prefix = '') {
+	return checkCalc('-webkit-') || checkCalc('-moz-') || checkCalc();
 };
 
 // check webkit prefixed support
-myapp.checkCalc('-webkit-');
+checkCalc('-webkit-');
 // check moz prefixed support
-myapp.checkCalc('-moz-');
+checkCalc('-moz-');
 // check unprefixed/spec support
-myapp.checkCalc();
+checkCalc();
 
 // or all of the above
-myapp.checkAllCalc();</code></pre>
+checkAllCalc();</code></pre>
