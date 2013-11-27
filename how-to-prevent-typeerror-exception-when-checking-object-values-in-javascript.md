@@ -2,7 +2,7 @@
 - Adonis K.
 - varemenos
 - 2013/11/11
-- javascript
+- JavaScript
 - published
 
 I'm certain a lot of you have had this issue in the past, I did too. So, let me demostrate to you have to quickly solve this issue without almost no change in your current code.
