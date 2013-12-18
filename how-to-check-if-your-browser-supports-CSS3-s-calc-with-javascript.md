@@ -22,14 +22,11 @@ checkAllCalc = function (prefix = '') {
 
 Now you can:
 
-check webkit prefixed support
+1. check webkit prefixed support
 <pre class="line-numbers"><code class="language-javascript">checkCalc('-webkit-');</code></pre>
-
-check moz prefixed support
+2. check moz prefixed support
 <pre class="line-numbers"><code class="language-javascript">checkCalc('-moz-');</code></pre>
-
-check unprefixed/spec support
+3. check unprefixed/spec support
 <pre class="line-numbers"><code class="language-javascript">checkCalc();</code></pre>
-
-or all of the above
+4. or all of the above
 <pre class="line-numbers"><code class="language-javascript">checkAllCalc();</code></pre>
