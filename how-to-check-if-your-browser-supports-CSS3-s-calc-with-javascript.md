@@ -18,14 +18,15 @@ checkCalc = function (prefix = '') {
 // returns true if your browser supports any version of calc(), prefixed or not
 checkAllCalc = function (prefix = '') {
 	return checkCalc('-webkit-') || checkCalc('-moz-') || checkCalc();
-};
+};</code></pre>
 
-// check webkit prefixed support
-checkCalc('-webkit-');
-// check moz prefixed support
-checkCalc('-moz-');
-// check unprefixed/spec support
-checkCalc();
+Now you can:
 
-// or all of the above
-checkAllCalc();</code></pre>
+1. check webkit prefixed support
+<pre class="line-numbers"><code class="language-javascript">checkCalc('-webkit-');</code></pre>
+2. check moz prefixed support
+<pre class="line-numbers"><code class="language-javascript">checkCalc('-moz-');</code></pre>
+3. check unprefixed/spec support
+<pre class="line-numbers"><code class="language-javascript">checkCalc();</code></pre>
+4. or all of the above
+<pre class="line-numbers"><code class="language-javascript">checkAllCalc();</code></pre>
