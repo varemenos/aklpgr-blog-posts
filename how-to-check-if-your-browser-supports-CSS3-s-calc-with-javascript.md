@@ -9,14 +9,15 @@ Recently I had to use CSS3's calc() value for a website I was designing and it s
 So, here is the script:
 
 <pre class="line-numbers"><code class="language-javascript">// returns true if your browser supports calc()
-checkCalc = function (prefix = '') {
+checkCalc = function (prefix) {
+	prefix = prefix || '';
 	var el = document.createElement('div');
 	el.style.cssText = prefix + 'width: calc(1px);';
 	return !!el.style.length;
 };
 
 // returns true if your browser supports any version of calc(), prefixed or not
-checkAllCalc = function (prefix = '') {
+checkAllCalc = function () {
 	return checkCalc('-webkit-') || checkCalc('-moz-') || checkCalc();
 };</code></pre>
 
