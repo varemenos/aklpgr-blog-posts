@@ -7,7 +7,11 @@
 
 ## Preface
 
-As a web-developer I've had the chance to work a lot through the terminal emulators of a Linux distro (either Ubuntu or Fedora) and so I had to start making a terminal setup for myself which would help me raise my productivity by either avoiding various annoyances that I've encountered throughout the journey or by including tools that I didn't use before. After a while of digging for the right tools, I came across [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) which is "A community-driven framework for managing your zsh configuration," . What that means? basically it loads variously ZSH shell scripts and configurations which it then configures for you. All you have to do to get started, is to install the zsh package via your distro's package manager and then install oh-my-zsh by following the simple instructions written in it's [github](https://github.com/robbyrussell/oh-my-zsh#setup) page.
+As a web-developer I've had the chance to work a lot through the terminal emulators of a Linux distro (either Ubuntu or Fedora) and so I had to start making a terminal setup for myself which would help me raise my productivity by either avoiding various annoyances that I've encountered throughout the journey or by including tools that I didn't use before. After a while of digging for the right tools, I came across [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) which is "A community-driven framework for managing your zsh configuration," . What that means? basically it loads variously ZSH shell scripts and configurations which it then configures for you.
+
+## Getting ZSH and oh-my-zsh
+
+All you have to do to get started, is to install the zsh package via your distro's package manager and then install oh-my-zsh by following the simple instructions written in it's [github](https://github.com/robbyrussell/oh-my-zsh#setup) page.
 
 So now that you've done installing it, let's see what I've changed in my ~.zshrc file and why.
 
