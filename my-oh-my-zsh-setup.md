@@ -15,25 +15,27 @@ All you have to do to get started, is to install the zsh package via your distro
 
 So now that you've done installing it, let's see what I've changed in my ~.zshrc file and why.
 
-## Load ohm-my-zsh plugins
+## Configure ZSH
+
+### Load ohm-my-zsh plugins
 
 <script src="https://gist.github.com/varemenos/9632120.js"></script>
 
 Here I load all the oh-my-zsh plugins that I need for my needs. That includes popular tools like ruby and node.js (via nvm & rvm), git, an ssh-agent which adds my ssh key on-startup, of course npm and gem package managers for the previously mentioned ruby and node.js and couple of other less significant plugins.
 
-## Alias fix
+### Alias fix
 
 <script src="https://gist.github.com/varemenos/9632134.js"></script>
 
 This alias fixes a really annoying bug I had which wouldn't allow me to run my personal aliases whenever I tried to execute those aliases via sudo.
 
-## Oh-my-zsh settings customization
+### Oh-my-zsh settings customization
 
 <script src="https://gist.github.com/varemenos/9632153.js"></script>
 
 A simple configuration of oh-my-zsh, most of them are self-explanatory.
 
-## Application Aliases
+### Application Aliases
 
 <script src="https://gist.github.com/varemenos/9632177.js"></script>
 
@@ -41,25 +43,25 @@ A simple configuration of oh-my-zsh, most of them are self-explanatory.
 
 haters gonna hate.
 
-## Action Aliases
+### Action Aliases
 
 <script src="https://gist.github.com/varemenos/9632199.js"></script>
 
 Quick untarring, android screenshot taking and pb-actions compatibility for linux distros.
 
-## Package Manager Aliases
+### Package Manager Aliases
 
 <script src="https://gist.github.com/varemenos/9632225.js"></script>
 
 Currently only checks whether the user uses Redhat or Debian systems (apt-get versus yum) and decides which of the aliases to load. The aliases themselves are just shortcuts of the package-manager's actions.
 
-## Git Aliases
+### Git Aliases
 
 <script src="https://gist.github.com/varemenos/9632243.js"></script>
 
 I do too much git, and with these I save quite a few keystrokes.
 
-## Functions
+### Functions
 
 <script src="https://gist.github.com/varemenos/9632251.js"></script>
 
