@@ -5,7 +5,7 @@
 - Tools
 - publish
 
-As a web-developer using a terminal became a daily routine quite soon and after a while I realized that I had to start making a terminal setup for myself. What I was looking for was something that would help me raise my productivity by either avoiding various annoyances that I've encountered throughout the journey or by including tools that I didn't use before that would smoothen the road ahead. After a while of digging for the right tools, I came across [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) which is "A community-driven framework for managing your zsh configuration," . What that means? basically it loads variously ZSH shell scripts and configurations which it then configures for you.
+As a web-developer using a terminal became a daily routine quite soon and after a while I realized that I had to start making a terminal setup for myself. What I was looking for was something that would help me raise my productivity by either avoiding various annoyances that I've encountered throughout the journey or by including tools that I didn't use before that would smoothen the road ahead. After a lot of digging for the right tools, I came across [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) which is "A community-driven framework for managing your zsh configuration," . What that means? basically it loads variously ZSH shell scripts and configurations which it then configures for you.
 
 ## Getting ZSH and oh-my-zsh
 
