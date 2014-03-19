@@ -11,7 +11,7 @@ As a web-developer I've had the chance to work a lot through the terminal emulat
 
 All you have to do to get started, is to install the zsh package via your distro's package manager and then install oh-my-zsh by following the simple instructions written in it's [github](https://github.com/robbyrussell/oh-my-zsh#setup) page.
 
-So now that you've done installing it, let's see what I've changed in my ~.zshrc file and why.
+So now that you've done installing it and before we start let me tell you how to configure oh-my-zsh. Almost all the configuration is done in the .zshrc file that's located in your home directory (hidden by default because it's first character starts with a dot "."). Inside there you write how you want to configure your zsh/oh-my-zsh setup. So without any further ado let's see what I've changed in my ~.zshrc file and why.
 
 ## Configure ZSH
 
