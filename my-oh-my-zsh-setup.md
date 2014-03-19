@@ -2,7 +2,7 @@
 - Adonis K.
 - varemenos
 - 2014/03/19
-- Tools-Of-Trade
+- Tools
 - publish
 
 ## Preface
