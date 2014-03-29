@@ -25,5 +25,5 @@ if(person.name && person.name.first === "John"){
 }</code>
 </pre>
 
-This way you won't get any errors or broken code in production.}</code>
+This way you won't get any errors or broken code in production.</code>
 </pre>
