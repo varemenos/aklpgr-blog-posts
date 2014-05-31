@@ -1,4 +1,9 @@
 # How to inline font-faces inside a CSS file
+- Adonis K.
+- varemenos
+- 2013/05/31
+- CSS
+- published
 
 Hello, today I will show you how to quickly inline your font-face files inside a CSS file. The following example only explains the process for a woff file but the process is the same for all font-face formats:
 
