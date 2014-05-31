@@ -1,7 +1,7 @@
 # How to inline font-faces inside a CSS file
 - Adonis K.
 - varemenos
-- 2013/05/31
+- 2014/05/31
 - CSS
 - published
 
