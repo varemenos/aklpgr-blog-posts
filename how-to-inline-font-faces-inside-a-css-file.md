@@ -23,3 +23,6 @@ __CSS__
 __HTML__
 
 	<p>Hello</p>
+
+
+> Credits go to the Twitter team and Sime Vidas for letting me know via [this tweet](https://twitter.com/simevidas/status/472541998252294145)
