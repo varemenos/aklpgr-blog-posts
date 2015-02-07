@@ -15,7 +15,7 @@ Now that you've done installing it let me tell you how to configure oh-my-zsh an
 
 ## Configure ZSH
 
-### Load ohm-my-zsh plugins
+### Load oh-my-zsh plugins
 
 <script src="https://gist.github.com/varemenos/9632120.js"></script>
 
